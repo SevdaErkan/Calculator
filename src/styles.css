@@ -1,0 +1,64 @@
+* {
+   box-sizing: border-box;
+}
+
+.App {
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.display {
+   width: 320px;
+   height: 80px;
+   border: 1px solid;
+   background-color: rgb(245, 229, 158);
+}
+#buttons {
+   display: flex;
+   flex-direction: row;
+   width: 320px;
+   height: 320px;
+}
+.left {
+   flex: 75%;
+   height: 100%;
+   background-color: burlywood;
+}
+/* .right {
+   flex: 25%;
+   background-color: rgb(206, 90, 113);
+   height: 100%;
+} */
+.btn-container {
+   display: flex;
+}
+#enter {
+   border: 1px solid;
+   width: 120px;
+   height: 80px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.numbers {
+   background-color: bisque;
+   width: 240px;
+   height: 240px;
+   display: flex;
+   flex-wrap: wrap;
+}
+.num,
+#operations {
+   border: 1px solid;
+   width: 80px;
+   height: 80px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+#operations {
+   background-color: rgb(206, 90, 113);
+}
